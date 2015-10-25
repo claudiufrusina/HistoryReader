@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sfondo">#ff7ece28</color>
+    <color name="verde_chiaro">#44ff44</color>
+    <color name="testo">#ff555555</color>
+    <color name="errore">#ffff0000</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="grey">#FFDADADA</color>
+    <color name="blue">#ff0200ff</color>
+</resources>

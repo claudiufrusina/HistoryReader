@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="10dp"
+        android:focusable="false"
+        android:fillViewport="false"
+        android:layout_above="@+id/menu"
+        android:background="@android:color/holo_orange_light"
+        android:layout_below="@+id/domanda">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/risposta"
+            android:textStyle="italic"
+            android:layout_below="@+id/immagine"
+            android:layout_alignRight="@+id/menu"
+            android:layout_above="@+id/risposta"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textIsSelectable="false"
+            android:padding="10dp"
+            android:elegantTextHeight="false"
+            android:autoText="false" />
+    </ScrollView>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Indietro"
+        android:id="@+id/menu"
+        android:textStyle="italic"
+        android:textSize="25dp"
+        android:background="#009688"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/domanda"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textStyle="bold|italic"
+        android:textSize="25dp"
+        android:typeface="serif"
+        android:textIsSelectable="false"
+        android:background="@android:color/holo_orange_dark" />
+
+</RelativeLayout>

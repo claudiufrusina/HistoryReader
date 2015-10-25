@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">History Reader</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="questionario">Questionario</string>
+    <string name="risposta">Domanda e risposta</string>
+    <string name="accesso">Accedi al questionario</string>
+</resources>
